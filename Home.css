@@ -1,0 +1,77 @@
+@import
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+.home-page{
+    padding: 50px;
+
+}
+h1{
+    font-size: 3rem;
+    color: #007bff;
+}
+p.lead{
+    font-size: 1.5rem;
+}
+
+/*Styling for call to action button*/
+button{
+    margin: 20px 0;
+    padding: 10px 30px;
+}
+/*Match card animations and design*/
+.match-card{
+    border: none;
+    transition: transform 0.3s ease;
+}
+.match-card:hover{
+    transform: scale(1.05);
+}
+.card-title{
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card-text{
+    font-size: 1.1rem;
+}
+/*General styling for alignment*/
+.row{
+    justify-content: center;
+}
+/*Footer Styling*/
+.footer mt-5{
+    background-color: black;
+    padding: 30px;
+    border-top: 1px solid #e5e5e5;
+}
+.footer h5{
+    color: #007bff;
+}
+.footer a{
+    color: #007bff;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer ul li{
+    margin-bottom: 10px;
+}
+.footer p{
+    margin: 0;
+    color: #6c757d;
+}
+.text-center{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .footer{
+        text-align: center;
+    }
+    .footer .row{
+        display: block;
+    }
+}

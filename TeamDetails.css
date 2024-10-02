@@ -1,0 +1,37 @@
+/* Add some basic animations */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .card {
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  /* Additional styling to enhance the UI */
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .btn {
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
